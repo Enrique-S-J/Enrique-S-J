@@ -1,7 +1,22 @@
-# Hello there! 👋
-I'm Enrique Sanchez (Enrique-S-J), a Computer Science Graduate with a minor in Spanish at UofA. My work primarily focus on Web Development and Applications, Information technology, Data Science and keeping up to date with the latest in AI/ML for software and SaaS development.
+# Enrique Sanchez
 
-Currently working on maintaining and developing a variety of different self-employed projects for clients, working on a few personal projects and continously learning any new technology that could help me along the way.  
+AI & Automation Engineer at a managed services provider, where I run the AI stack end to end: on-prem LLM inference (LiteLLM, Open WebUI, LibreChat), RAG pipelines over 25 years of support history, MCP servers connecting AI assistants to production business systems, and n8n automations that are now sold as services.
+
+**What I work with**
+
+- **AI/LLM:** RAG & retrieval, agent orchestration, MCP server development, model evaluation, voice agents, self-hosted inference
+- **Infra:** Kubernetes (Talos), Docker, GitLab CI/CD, Ansible, Linux
+- **Code:** Python, JavaScript/TypeScript, Java, SQL
+
+**Here on GitHub**
+
+- [`sysops-mcp`](https://github.com/Enrique-S-J/sysops-mcp) — MCP server giving AI assistants safe, read-only system diagnostics (CPU, memory, disk, processes, ports, logs)
+- More MCP servers and n8n workflow collections on the way
+
+B.S. Computer Science, University of Arizona. Bilingual (English/Spanish). Based in Tucson, AZ.
+
+📫 sanchezenriquejunior01@gmail.com · [LinkedIn](https://www.linkedin.com/in/enrique-sanchez326)
+
 
 
 
