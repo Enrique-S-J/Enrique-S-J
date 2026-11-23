@@ -1,26 +1,30 @@
 # Enrique Sanchez
 
-AI & Automation Engineer at a managed services provider, where I run the AI stack end to end: on-prem LLM inference (LiteLLM, Open WebUI, LibreChat), RAG pipelines over 25 years of support history, MCP servers connecting AI assistants to production business systems, and n8n automations that are now sold as services.
+**AI Engineer · LLM Infrastructure · Agents & Automation · Software Engineering**
 
-**What I work with**
+I run the AI stack at a managed services provider end to end: a private GPU inference platform serving 50+ daily users, a RAG triage engine over 30,000+ support tickets, production MCP servers across the business toolstack, and n8n pipelines generating a seven-figure sales pipeline.
 
-- **AI/LLM:** RAG & retrieval, agent orchestration, MCP server development, model evaluation, voice agents, self-hosted inference
-- **Infra:** Kubernetes (Talos), Docker, GitLab CI/CD, Ansible, Linux
-- **Code:** Python, JavaScript/TypeScript, Java, SQL
+**[enrique-s-j.github.io](https://enrique-s-j.github.io/)** has the case studies · [Resume (PDF)](https://enrique-s-j.github.io/assets/Enrique_Sanchez_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/enrique-sanchez326)
 
-**Here on GitHub**
+## Open source
 
-- [`sysops-mcp`](https://github.com/Enrique-S-J/sysops-mcp) — MCP server giving AI assistants safe, read-only system diagnostics (CPU, memory, disk, processes, ports, logs)
-- More MCP servers and n8n workflow collections on the way
+The production systems belong to my employer, so these repositories show the same patterns built fresh from public documentation, on synthetic data.
 
-B.S. Computer Science, University of Arizona. Bilingual (English/Spanish). Based in Tucson, AZ.
+| Repository | What it is |
+|---|---|
+| [mcp-guardrail-proxy](https://github.com/Enrique-S-J/mcp-guardrail-proxy) | Policy and audit middleware for MCP. It wraps any MCP server, passes read-only tools through, and holds write-capable tools behind an approval step, with every call in an audit log. Python, 155 tests, CI on Linux and macOS. |
+| [llm-automation-evals](https://github.com/Enrique-S-J/llm-automation-evals) | A small eval harness for LLM-powered automations: golden test cases, pluggable scorers, regression reports, and safe-failure checks, with a worked ticket-classification example run against three local models. Python, 314 tests, CI on Linux and macOS. |
+| [sysops-mcp](https://github.com/Enrique-S-J/sysops-mcp) | An MCP server giving AI assistants safe, read-only visibility into a host: CPU, memory, disk, processes, network, ports, and logs. Python, 37 tests, CI on Linux and macOS. |
+| [nws-mcp](https://github.com/Enrique-S-J/nws-mcp) | An MCP server for US weather from the National Weather Service API: forecasts, alerts, and observations, with no API key. TypeScript, 53 tests. |
+| [n8n-ops-workflows](https://github.com/Enrique-S-J/n8n-ops-workflows) | Three importable n8n workflows for lead handling, alert digestion, and ticket summarization, each with its own documentation. |
+| [Enrique-S-J.github.io](https://github.com/Enrique-S-J/Enrique-S-J.github.io) | The site itself: plain HTML and CSS with no framework, built to score 100 across all four Lighthouse categories. |
 
-📫 sanchezenriquejunior01@gmail.com · [LinkedIn](https://www.linkedin.com/in/enrique-sanchez326)
+## What I work with
 
+- **AI/LLM:** RAG and retrieval, agent orchestration, MCP server development, model evaluation and guardrails, voice agents, on-prem inference, quantization
+- **Infra:** Kubernetes (Talos), Docker, GitLab CI/CD, Ansible, Linux, AWS
+- **Code:** Python, JavaScript/TypeScript, Java, C/C++, SQL
 
+B.S. Computer Science, University of Arizona. Bilingual (English/Spanish). Based in Tucson, AZ, and remote-ready.
 
-
-<!---
-Enrique-S-J/Enrique-S-J is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+sanchezenriquejunior01@gmail.com
